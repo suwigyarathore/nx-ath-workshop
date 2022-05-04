@@ -18,7 +18,7 @@ const games: Game[] = [
     rating: Math.random(),
   },
   {
-    id: 'purrfection',
+    id: 'purrfectinon',
     name: 'Purrfection',
     image: '/assets/cat.png', // 'https://media.giphy.com/media/12xMvwvQXJNx0k/giphy.gif',
     description: 'A cat grooming contest goes horribly wrong.',
