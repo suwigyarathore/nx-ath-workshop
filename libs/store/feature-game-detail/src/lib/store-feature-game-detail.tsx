@@ -8,6 +8,7 @@ import CardContent from '@material-ui/core/CardContent';
 import Typography from '@material-ui/core/Typography';
 import { useEffect, useState } from 'react';
 import { Button, CardActions, CardHeader, CardMedia } from '@material-ui/core';
+import { Game } from '@bg-hoard/util-interface';
 
 
 /* eslint-disable-next-line */
@@ -15,7 +16,7 @@ import { Button, CardActions, CardHeader, CardMedia } from '@material-ui/core';
 export const StoreFeatureGameDetail = () => {
   const params = useParams();
   const [state, setState] = useState<{
-    data: any;
+    data: Partial<Game>;
     loadingState: 'success' | 'error' | 'loading';
   }>({
     data: {},
