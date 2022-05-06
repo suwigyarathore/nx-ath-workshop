@@ -26,7 +26,7 @@ export const Header = ({ title }: HeaderProps) => {
     <AppBar position="static">
       <Toolbar>
         <Typography variant="h6" className={classes.title}>
-          {title}
+          {'Hi '+title}
         </Typography>
       </Toolbar>
     </AppBar>
