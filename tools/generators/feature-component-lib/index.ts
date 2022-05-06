@@ -6,7 +6,8 @@ export default async function (tree: Tree, schema: any) {
     ...schema,
     name: 'smart'+ schema.name,
     style:'scss',
-    project: 'store'
+    project: 'store',
+    export: true
   })
   await formatFiles(tree);
   return () => {
